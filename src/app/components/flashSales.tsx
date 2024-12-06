@@ -18,11 +18,11 @@ function FlashSales(){
                     <h3 className="text-red-500 font-bold border-l-8  border-red-400 pl-3 ml-1">Today&apos;s</h3>
                     <div className="flex ">
                     <h1 className="text-gray-800 font-bold sm:text-md md:text-3xl lg:text-3xl pt-4">Flash Sales</h1> 
-                    <Image src={"/images/freesh/freesh.png"}
+                    <Image src={"/images/flash/freesh.png"}
                     width={200}
                     height={200}
                     className="ml-10 sm:hidden md:block"
-                     alt="freesh sales"></Image> </div>
+                     alt="flash sales"></Image> </div>
                 </div>
                 <div className="flex sm:flex-col md:flex-row lg:flex-row justify-between mt-5 sm:flex-nowrap md:flex-wrap lg:flex-nowrap">
                     {/* box1 */}
@@ -30,7 +30,7 @@ function FlashSales(){
                     <div className="group shadow-md bg-neutral-100 sm:w-full md:w-[300px] lg:w-[220px] h-[180px] flex justify-center items-center cursor-pointer relative">
                   {/* Image */}
                   <Image
-                    src={"/images/freesh/gaming.png"}
+                    src={"/images/flash/gaming.png"}
                     width={150}
                     height={100}
                     alt="game-images"
@@ -62,7 +62,7 @@ function FlashSales(){
                     <div className="group bg-neutral-100 shadow-md sm:w-full md:w-[300px] lg:w-[220px] h-[180px] flex justify-center items-center cursor-pointer relative">
                   {/* Image */}
                   <Image
-                    src={"/images/freesh/keyboard.png"}
+                    src={"/images/flash/keyboard.png"}
                     width={150}
                     height={100}
                     alt="game-images"
@@ -90,7 +90,7 @@ function FlashSales(){
                     {/* box 3 */}
                     <div>
                     <div  className=" group relative shadow-md bg-neutral-100 cursor-pointer sm:w-full md:w-[300px] lg:w-[220px]  h-[180px] flex justify-center items-center"> 
-                        <Image src={"/images/freesh/lcd.png"}
+                        <Image src={"/images/flash/lcd.png"}
                         width={150} height={100} 
                         alt="game-images">
                         </Image>
@@ -117,7 +117,7 @@ function FlashSales(){
                     {/* box4 */}
                    <div>
                    <div className="group relative shadow-md bg-neutral-100 cursor-pointer sm:w-full md:w-[300px] lg:w-[220px] h-[180px] flex justify-center items-center"> 
-                        <Image src={"/images/freesh/chair.png"}
+                        <Image src={"/images/flash/chair.png"}
                         width={150} height={100} 
                         alt="game-images">
                         </Image>
